@@ -15,7 +15,7 @@ function draw(){
   noStroke();
   rect(x, y, faceWidth, faceHeight, 30);
   rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2);
-  rect(150, 200, eyeSize, eyeSize, 10, 10, 2, 2);
+  rect(100, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
 
 }
@@ -24,5 +24,5 @@ function mousePressed(){
   //Í hvert sinn sem músinni er smellt fá breyturnar ný gildi.
   faceWidth  = random(75,  150);
   faceHeight = random(100, 200);
-  eyeSize    = random(10,  30);
+  eyeSize    = random(10,  20);
 }
