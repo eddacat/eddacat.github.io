@@ -2,8 +2,8 @@
 var eyeSize = 20;
 var faceWidth = 100;
 var faceHeight = 150;
-var x = 200;
-var y = 200;
+var x = 150;
+var y = 150;
 var mouthLength = 20;
 
 function setup(){
