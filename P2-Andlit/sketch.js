@@ -18,6 +18,9 @@ function draw(){
   noStroke();
   rect(175, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   rect(125, 150, eyeSize, eyeSize, 10, 10, 2, 2);
+  fill(255, 144, 133);
+  noStroke()
+  rect(150, 175, 20, 5, 1, 1, 10, 10);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
 
 }
