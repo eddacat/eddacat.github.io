@@ -2,8 +2,8 @@
 var eyeSize = 20;
 var faceWidth = 100;
 var faceHeight = 150;
-var x = 300;
-var y = 300;
+var x = 100;
+var y = 100;
 
 function setup(){
   createCanvas (300,300);
