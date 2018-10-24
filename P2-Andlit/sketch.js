@@ -2,12 +2,13 @@
 var eyeSize = 20;
 var faceWidth = 100;
 var faceHeight = 150;
-var x = 175;
-var y = 125;
+var x = 150;
+var y = 150;
 var mouthLength = 20;
 
 function setup(){
   createCanvas (300,300);
+  rectMode(CENTER);
 }
 
 function draw(){
