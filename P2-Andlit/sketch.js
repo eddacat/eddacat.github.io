@@ -11,10 +11,11 @@ function setup(){
 
 function draw(){
   background(55, 84, 86);
-  fill(242, 90, 67)
+  fill(242, 90, 67);
+  noStroke();
   rect(x, y, faceWidth, faceHeight, 30);
-  rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2)
-  rect(150, 200, eyeSize, eyeSize, 10, 10, 2, 2)
+  rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2);
+  rect(150, 200, eyeSize, eyeSize, 10, 10, 2, 2);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
 
 }
