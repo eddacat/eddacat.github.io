@@ -16,8 +16,8 @@ function draw(){
   rect(x, y, faceWidth, faceHeight, 30);
   fill(84, 117, 119);
   noStroke();
-  rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2);
-  rect(100, 150, eyeSize, eyeSize, 10, 10, 2, 2);
+  rect(175, 150, eyeSize, eyeSize, 10, 10, 2, 2);
+  rect(125, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
 
 }
