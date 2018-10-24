@@ -31,5 +31,5 @@ function mousePressed(){
   faceWidth  = random(75,  150);
   faceHeight = random(100, 200);
   eyeSize    = random(10,  20);
-  mouthLength = random(10, 50);
+  mouthLength = random(10, 30);
 }
