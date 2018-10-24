@@ -2,8 +2,8 @@
 var eyeSize = 20;
 var faceWidth = 100;
 var faceHeight = 150;
-var x = 150;
-var y = 150;
+var x = 200;
+var y = 200;
 
 function setup(){
   createCanvas (300,300);
@@ -14,6 +14,8 @@ function draw(){
   fill(242, 90, 67);
   noStroke();
   rect(x, y, faceWidth, faceHeight, 30);
+  fill(84, 117, 119);
+  noStroke();
   rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   rect(100, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
