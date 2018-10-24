@@ -36,10 +36,10 @@ function draw(){
   rect(125, 165, 20, 10, 5);
 
   rectMode(CENTER);
-  fill(255, 255, 255);
+  fill(171, 217, 213);
   noStroke();
-  rect(177, 150, (eyeSize/3), (eyeSize/3), 10);
-  rect(127, 150, (eyeSize/3), (eyeSize/3), 10);
+  rect(177, 150, (eyeSize/4), (eyeSize/4), 10);
+  rect(127, 150, (eyeSize/4), (eyeSize/4), 10);
   //.....kóði sem staðsetur augun m.v. x, y, faceWidth og faceHeight ætti að koma hér.
 
 }
