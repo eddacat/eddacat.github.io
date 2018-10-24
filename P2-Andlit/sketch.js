@@ -5,7 +5,7 @@ var faceHeight = 150;
 var x = 150;
 var y = 150;
 var mouthLength = 20;
-var blushHue = (#FFB9B9);
+var blushHue = (255, 184, 184)
 
 function setup(){
   createCanvas (300,300);
@@ -47,5 +47,5 @@ function mousePressed(){
   faceHeight = random(100, 200);
   eyeSize    = random(10,  20);
   mouthLength = random(10, 30);
-  blushHue = random ((#FFB9B9),(#FF5656));
+  blushHue = random ((255, 184, 184),(255, 86, 86))
 }
