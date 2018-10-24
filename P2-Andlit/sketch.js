@@ -10,7 +10,8 @@ function setup(){
 }
 
 function draw(){
-  background(180);
+  background(55, 84, 86);
+  fill(242, 90, 67)
   rect(x, y, faceWidth, faceHeight, 30);
   rect(200, 150, eyeSize, eyeSize, 10, 10, 2, 2)
   rect(150, 200, eyeSize, eyeSize, 10, 10, 2, 2)
