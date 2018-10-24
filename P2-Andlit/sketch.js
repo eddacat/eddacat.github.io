@@ -12,13 +12,16 @@ function setup(){
 
 function draw(){
   background(55, 84, 86);
+  rectMode(CENTER);
   fill(242, 90, 67);
   noStroke();
   rect(x, y, faceWidth, faceHeight, 30);
+  rectMode(CENTER);
   fill(84, 117, 119);
   noStroke();
   rect(175, 150, eyeSize, eyeSize, 10, 10, 2, 2);
   rect(125, 150, eyeSize, eyeSize, 10, 10, 2, 2);
+  rectMode(CENTER)
   fill(255, 144, 133);
   noStroke();
   rect(150, 175, mouthLength, 5, 1, 1, 10, 10);
