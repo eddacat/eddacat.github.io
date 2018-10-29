@@ -14,7 +14,7 @@ function setup(){
 
     fill(233, 182, 56);
     noStroke();
-    rect(100,150, 180,175, 3);
+    rect(100,150, 180,100, 3);
 
 
 
