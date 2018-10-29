@@ -8,6 +8,10 @@ function setup(){
     noStroke();
     rect(100,10, 180,15, 2);
 
+    fill(119, 126, 157);
+    noStroke();
+    rect(100,60, 180,15, 2);
+
 
 
 
