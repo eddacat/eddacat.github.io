@@ -4,6 +4,7 @@ function setup(){
     background(49, 69, 161);
     rectMode(CENTER);
 
+function draw(){
     fill(234, 237, 247);
     noStroke();
     rect(100,10, 180,15, 2);
@@ -23,5 +24,5 @@ function setup(){
 
 
 
-
+    }
 }
