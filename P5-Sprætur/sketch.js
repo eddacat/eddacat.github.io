@@ -5,5 +5,5 @@ function preload() {
    }
 function setup() {
   createCanvas(700,700);
-  background(bakgrunnur);
+  background (bakgrunnur) ;
 }
