@@ -44,8 +44,8 @@ function draw() {
 	if(abs(spadiY - y) < boltiStaerd/2 + spadiThykkt/2 && abs(mouseX - x) < boltiStaerd/2 + spadiBreidd/2){
     hradiY = hradiY * -1;
 		stig = stig + 1;
-    boltiLitur = random(0,50);
-		spadiBreidd = random(225,350);
+    boltiLitur = random(225,350);
+		spadiBreidd = random(115,160);
 	}
 	// Teikna boltann, spaðann og stigin
   fill(boltiLitur,50, 100);
