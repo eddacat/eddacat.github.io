@@ -26,9 +26,10 @@ function mousePressed() {
 	for (var i = 0; i < 5; i++){
 		boltar.push(new Ball(mouseX,mouseY,litur));
   }
+  words.push("boltar");
 }
 function keyPressed() {
-  words.push("boltar");
+  words.splice(0,1);
 }
 // Býr til bolta sem fer um skjáinn+
 // og skoppar af mörkum hans
