@@ -7,4 +7,33 @@ body {
   background-color: #EAF9F6;
   color: #FF5338;
   font: 15px verdana, sans-serif;
+
 }
+h1 {
+    text-shadow: 3px 2px #7FC6C4;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+</style>
+</head>
+<body>
+
+<a href="default.asp" target="_blank">This is a link</a>
+
+</body>
+</html>
